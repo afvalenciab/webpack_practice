@@ -11,6 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <Layout>
+        @Andres Valencia estuvo aquí
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/badges" component={Badges} />
